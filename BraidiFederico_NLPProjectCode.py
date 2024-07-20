@@ -67,7 +67,7 @@ import transformers
 from huggingface_hub import login
 
 # log in to Hugging Face with generated token
-login(token="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")
+login(token=insertToken)
 
 model_id = "meta-llama/Llama-2-7b-chat-hf"
 # change with another to use a different mode
